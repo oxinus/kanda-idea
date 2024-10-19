@@ -1,0 +1,28 @@
+.resume-container {
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.resume-title > p {
+    color: #000;
+    text-align: center;
+    line-height: 1.1;
+    font-size: 34px;
+}
+.resume-container > button {
+    color: white;
+    background-color: #0000ff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+@media only screen and (max-width : 600px) {
+    .resume-title > p {
+        font-size: 28px;
+    }
+}

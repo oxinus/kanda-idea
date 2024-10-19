@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Din";
+    src: local("Din"),
+        url("./assets/fonts/Alternate.ttf") format("truetype"),
+        url("./assets/fonts/AlternateBlack.ttf") format("truetype"),
+        url("./assets/fonts/AlternateBold.ttf") format("truetype"),
+        url("./assets/fonts/AlternateLight.ttf") format("truetype"),
+        url("./assets/fonts/AlternateMedium.ttf") format("truetype"),
+        url("./assets/fonts/Black.ttf") format("truetype"),
+        url("./assets/fonts/BlackAlternate.ttf") format("truetype"),
+        url("./assets/fonts/Light.ttf") format("truetype"),
+        url("./assets/fonts/Medium.ttf") format("truetype");
+}
+
+body {
+    font-family: "Din";
+}
+button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+a {
+    text-decoration: none;
+    color: #404040;
+}
+a:hover {
+    color: #00f;
+}
